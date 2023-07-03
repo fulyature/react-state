@@ -1,14 +1,28 @@
 * {
-  background-color: brown;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-.App {
   text-align: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#f1d58e, #ea512f);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 h1 {
   margin-top: 5rem;
   font-size: 30px;
+  color: #ea512f;
+}
+button {
+  margin-top: 25px;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #ea512f;
   color: burlywood;
+  box-shadow: 5px 5px 5px black;
 }
